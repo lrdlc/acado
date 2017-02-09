@@ -290,6 +290,9 @@ SET( ACADO_INSTALL_CMAKE_DIR
 IF ( ACADO_BUILD_STATIC )
 	SET( ACADO_INSTALL_STATIC_LIBRARIES
 		acado_toolkit
+		acado_qpoases
+		acado_casadi
+		acado_csparse
 	)
 ENDIF()
 
